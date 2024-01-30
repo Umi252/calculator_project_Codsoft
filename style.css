@@ -1,0 +1,35 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    max-width: 300px;
+    margin: 0 auto;
+
+    background-image: url('file:///C:/Users/umisi/Downloads/30%20Behind-The-Scenes%20Photos%20Reveal%20How%20Movie%20Magic%20Happens.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.button {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #dadddb;
+    border: 1px solid hsl(0, 14%, 95%);
+}
+
+.button:hover {
+    background-color: #9b0404;
+}
+
+.screen {
+    grid-column: span 4;
+    padding: 26px;
+    text-align: right;
+    border: 2px solid #ccc;
+    background-color: #c1ddd9;
+}
